@@ -15,10 +15,10 @@ allOf:
             description: Forte Gateway account ID
           locationId:
             type: string
-            description: Forte Gateway location id
+            description: Forte Gateway location ID
           apiAccessId:
             type: string
-            description: Forte Gateway api access id
+            description: Forte Gateway api access ID
             format: password
           apiSecretKey:
             type: string

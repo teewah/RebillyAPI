@@ -13,8 +13,9 @@ enum:
  - Credorax
  - Datacash
  - Dengi
- - FundSend
  - EMerchantPay
+ - Flexepin
+ - FundSend
  - Forte
  - GlobalCollect
  - GlobalOne

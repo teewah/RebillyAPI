@@ -15,7 +15,7 @@ allOf:
             description: GlobalCollect Gateway merchant ID
           apiKeyId:
             type: string
-            description: GlobalCollect Gateway api key id
+            description: GlobalCollect Gateway api key ID
           apiSecretKey:
             type: string
             description: GlobalCollect Gateway api secret key
