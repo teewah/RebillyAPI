@@ -10,3 +10,4 @@ enum:
   - OchaPay
   - UPayCard
   - WeChat Pay
+  - Flexepin
