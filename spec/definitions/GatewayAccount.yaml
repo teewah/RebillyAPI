@@ -65,12 +65,6 @@ properties:
   threeDSecure:
     description: True, if Gateway Account allows 3DSecure
     type: boolean
-  threeDSecureType:
-    description: Type of 3DSecure
-    type: string
-    enum:
-      - integrated
-      - external
   dynamicDescriptor:
     description: True, if Gateway Account allows dynamic descriptor
     type: boolean
