@@ -1,0 +1,47 @@
+type: object
+required:
+  - format
+  - url
+properties:
+  id:
+    description: The export identifier string
+    readOnly: true
+    allOf:
+      - $ref: "#/definitions/ResourceId"
+  status:
+    description: Status of export request
+    readOnly: true
+    type: string
+    enum:
+      - "pending"
+      - "completed"
+  format:
+    description: Format
+    type: string
+    enum:
+      - "csv"
+  exportUriPath:
+    descripton: URI to export
+    example: /v2.1/transactions?sort=createdTime
+    type: string
+  fileUri:
+    description: File URI
+    readOnly: true
+    type: string
+  createdTime:
+    description: Export request created time
+    allOf:
+      - $ref: "#/definitions/ServerTimestamp"
+  completedTime:
+    description: Export request completed time
+    allOf:
+      - $ref: "#/definitions/ServerTimestamp"
+  _links:
+    type: array
+    description: The links related to resource
+    readOnly: true
+    minItems: 1
+    maxItems: 2
+    items:
+      - $ref: "#/definitions/SelfLink"
+      - $ref: "#/definitions/FileLink"
