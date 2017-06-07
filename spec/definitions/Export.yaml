@@ -21,7 +21,7 @@ properties:
     enum:
       - "csv"
   exportUriPath:
-    descripton: URI to export
+    description: URI to export
     example: /v2.1/transactions?sort=createdTime
     type: string
   fileUri:
