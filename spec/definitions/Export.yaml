@@ -15,8 +15,9 @@ properties:
     enum:
       - "pending"
       - "completed"
+      - "error"
   format:
-    description: Format
+    description: Export result format
     type: string
     enum:
       - "csv"

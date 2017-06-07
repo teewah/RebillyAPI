@@ -33,7 +33,7 @@ get:
     Retrieve a list of export requests
   responses:
     200:
-      description: A list of transactions was retrieved successfully
+      description: A list of export requests was retrieved successfully
       headers:
         Rate-Limit-Limit:
           $ref: "#/headers/Rate-Limit-Limit"
