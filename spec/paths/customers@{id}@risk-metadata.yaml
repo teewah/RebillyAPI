@@ -3,7 +3,7 @@ parameters:
 get:
   tags:
     - Customers
-  summary: Retrieve a customer's risk metadata
+  summary: Retrieve a customer risk metadata
   description: |
     Retrieve a risk metadata of given customer
   responses:
