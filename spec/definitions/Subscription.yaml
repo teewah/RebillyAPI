@@ -82,6 +82,10 @@ properties:
     type: string
     readOnly: true
     maxLength: 255
+  riskMetadata:
+    description: Risk metadata
+    allOf:
+      - $ref: "#/definitions/RiskMetadata"
   startTime:
     description: Subscription start time
     type: string

@@ -85,6 +85,10 @@ properties:
     type: integer
     description: Collection Period - difference between paidTime and issuedTime in days.
     readOnly: true
+  riskMetadata:
+    description: Risk metadata
+    allOf:
+      - $ref: "#/definitions/RiskMetadata"
   abandonedTime:
     description: Invoice abandoned time
     allOf:
