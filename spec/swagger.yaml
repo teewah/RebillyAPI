@@ -383,7 +383,7 @@ parameters:
     name: q
     in: query
     type: string
-    description: The partial search of the text fields.
+    description: The fulltext search of the text fields.
   collectionCriteria:
     name: criteria
     in: query
