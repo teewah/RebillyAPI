@@ -4,7 +4,7 @@ properties:
     type: object
     properties:
       ipAddress:
-        description: The customer IP
+        description: The customer's IP
         type: string
         format: ipv4
       isProxy:
