@@ -1,7 +1,6 @@
 type: object
 required:
   - format
-  - exportUriPath
 properties:
   id:
     description: The export identifier string
