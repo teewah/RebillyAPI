@@ -218,6 +218,10 @@ properties:
       type: number
       format: integer
       readOnly: true
+  riskMetadata:
+    description: Risk metadata
+    allOf:
+      - $ref: "#/definitions/RiskMetadata"
   redirectUrls:
     $ref: "#/definitions/RedirectUrls"
   retryInstruction:
