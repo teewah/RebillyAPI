@@ -20,3 +20,11 @@ properties:
     description: True if customer's ip address is related to hosting
     type: boolean
     readOnly: true
+  vpnServiceName:
+    description: VPN service name, if available
+    type: string
+    readOnly: true
+  isp:
+    description: Interet Service Provider name, if available
+    type: string
+    readOnly: true
