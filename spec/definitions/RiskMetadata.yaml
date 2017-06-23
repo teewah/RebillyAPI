@@ -12,7 +12,7 @@ properties:
     description: True if customer's ip address is related to VPN
     type: boolean
     readOnly: true
-  isTOR:
+  isTor:
     description: True if customer's ip address is related to TOR
     type: boolean
     readOnly: true
