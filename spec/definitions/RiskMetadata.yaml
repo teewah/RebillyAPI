@@ -24,7 +24,7 @@ properties:
     description: VPN service name, if available
     type: string
     readOnly: true
-  isp:
+  ISP:
     description: Interet Service Provider name, if available
     type: string
     readOnly: true
