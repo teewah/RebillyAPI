@@ -25,6 +25,14 @@ properties:
     type: string
     readOnly: true
   isp:
-    description: Interet Service Provider name, if available
+    description: Internet Service Provider name, if available
     type: string
     readOnly: true
+  fingerprint:
+    description: The fingerprint
+    type: string
+  httpHeaders:
+    description: HTTP headers
+    type: array
+    items:
+      type: object
