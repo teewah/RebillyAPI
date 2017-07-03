@@ -33,6 +33,4 @@ properties:
     type: string
   httpHeaders:
     description: HTTP headers
-    type: array
-    items:
-      type: object
+    type: object
